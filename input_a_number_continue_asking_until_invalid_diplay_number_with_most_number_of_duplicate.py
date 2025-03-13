@@ -25,3 +25,6 @@ while True:
 # IF numbers
 # most_repeated = max(numbers, key=numbers.get)
 # PRINT(f"The number with the most duplicate is: {most_repeated}")
+if numbers:
+    most_repeated = max(numbers, key=numbers.get)
+    print(f"The number with the most duplicates is: {most_repeated}")
