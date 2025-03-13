@@ -20,3 +20,4 @@ while True:
 numbers.sort(reverse=True)  # Sort numbers from highest to lowest
 
 # PRINT('Numbers in descending order:', numbers)
+print("Numbers in descending order:", numbers)
