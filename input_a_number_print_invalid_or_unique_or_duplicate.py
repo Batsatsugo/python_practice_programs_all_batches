@@ -21,4 +21,4 @@ while True:
             print("Unique")
             numberList.append(number)
     except ValueError:
-        print('invalid')
+        print('input is invalid')
