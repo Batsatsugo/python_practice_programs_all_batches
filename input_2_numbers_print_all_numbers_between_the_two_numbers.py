@@ -7,6 +7,6 @@ first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
 
 # FOR num IN RANGE (first_number, second_number + 1)
-for num in range(first_number, second_number + 1):
-
 # PRINT ('num')
+for num in range(first_number, second_number + 1):
+    print(num)
