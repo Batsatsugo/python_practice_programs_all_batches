@@ -20,4 +20,7 @@ while True:
 
 # IF count > 0
 # average = sum / count
+if count > 0:
+    average = sum_numbers / count
+
 # PRINT('Average: {average}')
