@@ -1,0 +1,4 @@
+# DECLARE I
+# FOR I IN RANGE(101)
+# IF I % 10 != 0
+# PRINT I
