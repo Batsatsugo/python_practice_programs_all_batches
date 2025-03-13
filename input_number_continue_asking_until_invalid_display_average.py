@@ -24,3 +24,4 @@ if count > 0:
     average = sum_numbers / count
 
 # PRINT('Average: {average}')
+    print(f"Average: {average}")
