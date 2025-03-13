@@ -3,6 +3,6 @@
 # TRY
 # number =('Enter a number: ')
 # number_list.append(number)
-# EXCEPT Valueerror
+# EXCEPT Valuerror
 # BREAK
 # PRINT('Lowest number: ', min(number_list))
