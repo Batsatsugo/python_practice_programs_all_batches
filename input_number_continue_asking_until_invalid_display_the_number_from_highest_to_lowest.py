@@ -17,4 +17,6 @@ while True:
 
 # SORT NUMBERS FROM HIGHEST TO LOWEST
 # numbers.sort(reverse=True)
+numbers.sort(reverse=True)  # Sort numbers from highest to lowest
+
 # PRINT('Numbers in descending order:', numbers)
