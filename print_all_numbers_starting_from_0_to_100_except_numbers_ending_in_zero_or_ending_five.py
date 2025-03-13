@@ -1,0 +1,3 @@
+# FOR num IN RANGE(101)
+# IF num % 10 NOT EQUAL 0 AND num % 10 NOT EQUAL 5
+# PRINT(num)
