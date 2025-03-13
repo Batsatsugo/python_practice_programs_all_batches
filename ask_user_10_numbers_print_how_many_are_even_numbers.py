@@ -12,3 +12,4 @@ for i in range(10):
         even_numbers += 1
 
 # PRINT(Total even numbers: , even_numbers)
+print("Total even numbers:", even_numbers)
