@@ -1,15 +1,24 @@
-# DECLARE number_list, number, duplicate
+# DECLARE numbers, duplicates, num, seen
 
-number_list = []
-
+numbers = []
+duplicates = []
+# PRINT('Enter 10 numbers: ')
 # FOR i IN RANGE(1, 11)
-# number = ('Enter a number')
-# number_list.append(number)
-for i in range(1, 11):
-    number = (int(input("Enter a number: ")))
-    number_list.append(number)
+# num = ('Enter a number')
+# numbers.append(num)
+print("Enter 10 numbers:")
+for i in range(10):
+    num = int(input("Enter a number: "))
+    numbers.append(num)
 
-# duplicate = [number for number in number_list if number_list.append(number) == 1]
-duplicate = [number for number in number_list if number_list.append(number) == 1]
+# find duplicates
+seen = set()
+for num in numbers:
+    if numbers.count(num) > 1 and num not in seen:
+        duplicates.append(num)
+        seen.add(num)
 
-# PRINT(duplicate)
+if duplicates:
+    print("Duplicate numbers:", *duplicates)
+else:
+    print("No duplicates found.")
