@@ -8,7 +8,8 @@ number_list = []
 # number_list.append(number)
 for i in range(1, 11):
     number = int(input("Enter a number: "))
-    if number not in numberList:
-        numberList.append(number)
+    if number not in number_list:
+        number_list.append(number)
 
 # PRINT(number_list)
+print(number_list)
