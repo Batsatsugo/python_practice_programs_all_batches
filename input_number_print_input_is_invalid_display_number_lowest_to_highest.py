@@ -16,3 +16,4 @@ while True:
         break
 
 # PRINT(sorted(number_list))
+print(sorted(numberList))
