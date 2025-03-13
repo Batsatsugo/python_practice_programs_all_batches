@@ -14,5 +14,6 @@ while True:
         numberList.append(number)
     except ValueError:
         break
-        
+
 # PRINT('Lowest number: ', min(number_list))
+print("Lowest number: ", min(numberList))
