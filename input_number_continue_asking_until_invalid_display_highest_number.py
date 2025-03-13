@@ -18,3 +18,5 @@ while True:
 
 # IF highest IS NOT None
 # PRINT('The highest number entered was: ', highest)
+if highest is not None:
+    print("The highest number entered was:", highest)
