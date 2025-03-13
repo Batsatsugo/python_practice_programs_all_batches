@@ -10,5 +10,10 @@ for i in range(10):
     numbers.append(num)
 
 # sum_remaining = sum(numbers[1:])
+sum_remaining = sum(numbers[1:])
+
 # result = numbers[0] - sum_remaining
+result = numbers[0] - sum_remaining
+
 # PRINT("Result:", result)
+print("Result:", result)
